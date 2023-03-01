@@ -435,6 +435,7 @@
 .footer__list-item {
   margin-bottom: 16px;
   list-style: none;
+  row-gap: 16px;
 }
 
 .footer__list-item:last-of-type {
