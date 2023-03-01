@@ -89,6 +89,10 @@
   text-decoration: none;
 }
 
+.header__link:hover {
+  color: #1f69c9;
+}
+
 .header__address {
   margin: 0;
   color: #838383;
