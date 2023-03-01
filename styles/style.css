@@ -44,6 +44,10 @@
   font-weight: bold;
 }
 
+.nav__link:hover {
+  color: #1f69c9;
+}
+
 .header__title {
   font-size: 66px;
   line-height: 76px;
@@ -159,6 +163,10 @@
   margin-top: 60px;
   color: #2f80ed;
   text-decoration: none;
+}
+
+.events__more:hover {
+  color: #1f69c9;
 }
 
 .events__cover {
@@ -385,8 +393,8 @@
   border-radius: 50%;
   position: absolute;
   z-index: 0;
-  top: -150px;
-  left: -100px;
+  top: -121px;
+  left: -91px;
 }
 
 .footer {
@@ -409,7 +417,8 @@
 }
 
 .footer__logo {
-  width: 153px;
+  width: 116px;
+  height: 21px;
 }
 
 .footer__list {
