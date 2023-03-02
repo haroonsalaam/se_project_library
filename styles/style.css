@@ -35,7 +35,6 @@
   list-style-type: none;
   padding: 0;
   margin-top: 8px;
-  margin: 0;
 }
 
 .nav__link {
@@ -54,6 +53,7 @@
   font-weight: 500;
   max-width: 544px;
   margin-top: 150px;
+  margin-bottom: 0;
 }
 
 .header__description {
@@ -243,6 +243,8 @@
   padding-top: 100px;
   padding-bottom: 140px;
   background-image: url(/images/staff_picks_background.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .staff__title {
@@ -267,6 +269,7 @@
   max-width: 760px;
   flex-wrap: wrap;
   padding-top: 68px;
+  padding-left: 0;
   gap: 40px;
   margin: auto;
 }
@@ -405,7 +408,8 @@
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: #fff;
-  padding: 57px 102px 60px 80px;
+  padding: 60px 102px 60px 80px;
+  min-height: 224px;
 }
 
 .footer__columns {
@@ -444,6 +448,8 @@
 
 .footer__column-heading {
   margin: 0 0 20px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__column-link {
